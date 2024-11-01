@@ -1,0 +1,240 @@
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+body {
+    background-color: #ccc;
+}
+
+header {
+    background-color: #0A192F;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.fundo{
+    width: 100%;
+    height: 300px;
+    background-color: #0A192F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fundo h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sobre{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #005f73;
+    padding: 20px;
+}
+
+.sobre .titulo{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sobre .trecho{
+    font-size: 24px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    color: black;
+}
+
+.sobre .apresentacao{
+    margin-left: 20px;
+}
+
+
+
+.historia{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #005f73;
+    justify-content: end;
+    padding: 20px;
+}
+
+.historia .titulo{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.historia .trecho{
+    font-size: 24px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.historia .apresentacao{
+    margin-left: 20px;
+}
+
+@media (max-width: 480px) {
+    .sobre .titulo {
+        font-size: 28px; /* Ajuste de tamanho para telas muito pequenas */
+    }
+    .sobre .trecho {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .historia .titulo {
+        font-size: 28px; /* Ajuste de tamanho para telas muito pequenas */
+    }
+    .historia .trecho {
+        font-size: 18px;
+    }
+}
+
+.tecnologia{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #005f73;
+}
+
+.tecnologia h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.icones{
+    overflow: hidden;
+    transition: 0.8s;
+}
+
+.icones:hover{
+    transform: scale(1.2);
+}
+
+.desc{
+    color: white;
+}
+
+.contato{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #005f73;
+}
+.contato h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    .sociais {
+        font-size: 28px; /* Ajuste de tamanho para telas muito pequenas */
+    }
+    .sociais {
+        font-size: 12px;
+    }
+    .sociais {
+        flex-direction: column;
+    
+    }
+}
+
+
+.sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 10px;
+}
+
+.sociais p{
+    flex-wrap: wrap;
+    margin: 5px 20px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #065262;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@keyframes animate-outline {
+    from {
+        outline: 0px solid #94d2db; 
+    }
+    to {
+        outline: 15px solid #4f9bf900; 
+    }
+  }
+
+.btn{
+
+padding: 9px 12px; /*tamanho da borda dos botoes*/
+border-radius: 10px; /*arredonda teu botao */
+ /*botao do mouse em cimam do btn */
+transition: 0.1s; /*tempo de transicao do botao*/
+
+}
+.btn:hover{
+    background-color:#005f73;
+}
